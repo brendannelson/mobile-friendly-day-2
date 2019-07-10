@@ -1,0 +1,54 @@
+/* media queries go below the elements involved */
+
+.container-fluid {background-color: yellow;}
+
+header {background-color: blue;}
+
+nav {background-color: green;}
+
+section .col-md-8 {background-color: red;}
+
+aside {background-color: aqua;}
+
+.col-md-3 {background-color: orange;}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+header,
+.col-md-3 {height: 150px;}
+
+nav,
+footer {height: 50px;}
+
+section .col-md-8,
+aside {height: 200px;}
+
+header,
+nav,
+.col-md-3,
+aside,
+section,
+footer {border: 2px solid black;}
+
+@media only screen and (min-width: 768px) {
+    .container-fluid {background-color: red;}
+    header {background-color: aqua;} 
+    nav {background-color: orange;}
+    section .col-md-8 {background-color: yellow;}
+    aside {background-color: black;}
+    .col-md-3 {background-color: white;}
+    footer {background-color: forestgreen;}
+  }
+
+@media only screen and (min-width: 875px) {
+    .container-fluid {background-color: purple;}
+    header {background-color: beige;} 
+    nav {background-color: yellowgreen;}
+    section .col-md-8 {background-color: gold;}
+    aside {background-color: navajowhite;}
+    .col-md-3 {background-color: wheat;}
+    footer {background-color: mediumvioletred;}
+  }
